@@ -1,5 +1,5 @@
 //your code here
-const solve = (arr, n) => {
+const majorElement = (arr, n) => {
 	const obj = {};
 	for(let i=0;i<n;i++){
 		if(obj[arr[i]]){
