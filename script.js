@@ -10,7 +10,7 @@ const solve = (arr, n) => {
 		}
 	}
 	for(let i in obj){
-		if(obj.i === n/2){
+		if(obj.i > Math.floor(n/2)){
 			return i;
 		}
 		return -1;
